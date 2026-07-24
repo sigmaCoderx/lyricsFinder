@@ -7,9 +7,9 @@ from telebot.util import user_link
 from lyricsgenius import Genius
 
 # get your own genius api key from lyrics genius
-genuisKey = "x6UwAfX611_JKxAf1T2gJEOSd2efmt4c5d4EQm1ohy05DhbX2_yGS5RQYX7PiidUWiYzz0LHK15NNbcetXspZw"
+genuisKey = "GENIUS_API"
 
-bot = TeleBot("6934289676:AAE0COsWQoMTj4TR6hZGbVvhAZqDlUVZvjw",parse_mode="HTML")
+bot = TeleBot("BOT_TOKEN",parse_mode="HTML")
 
 # helps to create inline keyboards
 markup = InlineKeyboardMarkup()
